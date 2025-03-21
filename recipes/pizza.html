@@ -6,30 +6,47 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="" />
     <link rel="icon" href="favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello, Pizza!</h1>
-    <img src="pizza.jpg" alt="pizza" width="800" height="400" />
-    <h2>Super Pizza!</h2>
-
-    <p><strong>Description:</strong></p>
-    <p></p>
-    <p>This is a Pizza description</p>
-    <p>This describes also more Pizza</p>
-    <h2>Ingredients:</h2>
-    <ul>
+    <h1 class="container p-5 my-5 bg-primary text-white">Hello, Pizza!</h1>
+    <img
+      src="pizza.jpg"
+      alt="pizza"
+      width="800"
+      height="400"
+      class="rounded mx-auto d-block"
+    />
+    <h2 class="container">Super Pizza!</h2>
+    <div class="container p-5 my-5 bg-dark text-white">
+      <p><strong>Description:</strong></p>
+      <p></p>
+      <p>This is a Pizza description</p>
+      <p>This describes also more Pizza</p>
+    </div>
+    <h2 class="container">Ingredients:</h2>
+    <ul class="container p-5 my-5 bg-dark text-white">
       <li>Masa de pizza</li>
       <li>Pasta de tomata</li>
       <li>Queso</li>
     </ul>
-    <h2>Steps:</h2>
-    <ol>
+    <h2 class="container">Steps:</h2>
+    <ol class="container p-5 my-5 bg-dark text-white">
       <li>Rayar el queso</li>
       <li>Colocar la pasta de tomate en la masa</li>
       <li>Colocar el queso rayado</li>
       <li>Colocar pizza en el horno</li>
     </ol>
-
-    <a href="../index.html">Home</a>
+    <div class="container p-5 my-5 border h2">
+      <a href="../index.html">Home</a>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
